@@ -41,3 +41,55 @@ input {
   padding: 0.5rem;
   border-radius: 5px;
 }
+
+.social-div {
+  height: 100px;
+  text-align: center;
+}
+
+.social-div p {
+  /* color: white; */
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+footer {
+  height: 150px;
+  padding: 10px;
+  margin: 0 35px;
+  margin-top: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 10px 0;
+  /* margin-left: 20px; */
+}
+
+.link {
+  padding: 10px;
+}
+
+.img-last {
+  border-radius: 20px;
+}
+
+/* Projects style  */
+
+.project-ul {
+  list-style: none;
+}
