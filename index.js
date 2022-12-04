@@ -10,6 +10,8 @@ function checkBLucky() {
 
   const dob = dateOfBirth.value;
   const sum = calculateSum(dob);
+  console.log(dob);
+  console.log(sum);
 
   if (sum && dob) {
     compareValues(sum, luckyNumber.value);
@@ -24,8 +26,9 @@ function calculateSum(dob) {
 
   for (let i = 0; i < dob.length; i++) {
     sum = sum + Number(dob.charAt(i));
-    console.log(sum);
   }
+  console.log(sum);
+  return sum;
 }
 
 function compareValues(sum, luckyNumber) {
