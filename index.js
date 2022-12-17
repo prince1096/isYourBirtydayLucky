@@ -22,6 +22,8 @@ function checkBLucky() {
 
 function calculateSum(dob) {
   dob = dob.replaceAll("-", "");
+  console.log(dob);
+  console.log(typeof dob);
   let sum = 0;
 
   for (let i = 0; i < dob.length; i++) {
